@@ -1,0 +1,10 @@
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,10 @@
+.slider {
+    /*width: 100vw;*/ /* Set the width of the slider to 100% of the viewport width */
+    /*overflow: hidden; /* Hide any overflow content that might be present */
+  }
+  
+  img {
+    width: 100%; /* Set the image width to 100% of its container (the slider) */
+    /*max-height: 400px; Adjust the max height to your desired value */
+    height: auto; /* Maintain the image's aspect ratio */
+  }

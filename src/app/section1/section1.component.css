@@ -1,0 +1,20 @@
+.section1 {
+    display: flex;
+    color: white;
+}
+.quote {
+    display: flex; /* Utilisation de Flexbox pour créer deux colonnes */
+    align-items: center; /* Aligner le contenu verticalement au centre */
+    margin: 20px; /* Marge pour espacer les devis */
+}
+
+.quote-image {
+    flex: 1; /* La première colonne prend 1/2 de l'espace disponible */
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+.quote-description {
+    flex: 1; /* La deuxième colonne prend 1/2 de l'espace disponible */
+    padding: 20px; /* Ajouter de l'espace intérieur pour la description */
+    color: white;
+}

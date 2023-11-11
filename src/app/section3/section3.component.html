@@ -1,0 +1,11 @@
+<app-title label="Gallery"></app-title>
+<mat-grid-list cols="4" rowHeight="300px">
+    <mat-grid-tile
+        *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        [style.background]="tile.color">
+        <img src="{{tile.src}}" alt="">
+      {{tile.text}}
+    </mat-grid-tile>
+  </mat-grid-list>

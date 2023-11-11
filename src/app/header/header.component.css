@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between; /* To distribute columns evenly */
+    background-color: #000; /* Set the background color of the header */
+    padding: 10px; /* Add padding as needed */
+  }
+  
+  .header-column {
+    flex: 1; /* Each column takes an equal amount of space */
+    display: flex;
+    justify-content: center; /* Center content horizontally in each column */
+    align-items: center; /* Center content vertically in each column */
+    height: 150px; /* Set the desired height for the header */
+  }
+  
+  img {
+    max-height: 100%; /* Ensure the image doesn't exceed the column height */
+    max-width: 100%; /* Ensure the image doesn't exceed the column width */
+  }
